@@ -9,7 +9,7 @@ class Cloudman < Formula
   elsif OS.linux?
     if Hardware:: CPU.intel?
       url "https://github.com/dutchcoders/cloudman/releases/download/#{version}/cloudman-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "f287a743450ecc8bcfdbaff5410f811a9c050f8e945a7e7ec46000609289b6a4"
     end
   end
 
